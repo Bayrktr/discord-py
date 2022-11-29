@@ -246,30 +246,3 @@ def weatherDatas(city):
         return datas
 
 
-def txtTakeListAnime():
-    fihrist = open("historyofanimenews.txt", "r", encoding='utf-8')
-    data = fihrist.readlines()
-    fihrist.close()
-    return data
-
-
-def txtTakeListGame():
-    fihrist = open("historyofgamenews.txt", "r", encoding='utf-8')
-    data = fihrist.readlines()
-    fihrist.close()
-    return data
-
-
-def txtInsertDataGame(data):
-    data = data.translate(Tr2Eng)
-    fihrist = open("historyofgamenews.txt", "a", encoding='utf-8')
-    fihrist.write("{}\n".format(data)),
-    fihrist.close()
-
-
-def txtInsertDataAnime(data):
-    data = data.translate(Tr2Eng)
-    fihrist = open("historyofanimenews.txt", "a", encoding='utf-8')
-    fihrist.write("{}\n".format(data)),
-    fihrist.close()
-
