@@ -1,2 +1,1 @@
-# DiscordPy
--DiscordPy modulu ile alakalı projeler ve sunucularımda kullandıgım botların acık kaynak kodları
+a project on how to pull data with a discord bot
