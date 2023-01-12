@@ -1,1 +1,1 @@
-a project on how to pull data with a discord bot
+A project on how to pull data with a discord bot
